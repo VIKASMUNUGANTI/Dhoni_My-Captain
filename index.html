@@ -20,7 +20,32 @@
 
 <body>
 
+    <!-- Custom Cursor -->
+    <div class="custom-cursor"></div>
+    <div class="custom-cursor-dot"></div>
+
     <div class="stars"></div>
+
+    <!-- ================= HEADER / NAV ================= -->
+    <header class="navbar glass">
+        <div class="nav-container">
+            <a href="#" class="logo">MSD <span class="logo-accent">7</span></a>
+            <nav class="nav-links">
+                <a href="#achievements">Achievements</a>
+                <a href="#trophies">Trophies</a>
+                <a href="#gallery">Memories</a>
+                <a href="#fan-corner">Fan Corner</a>
+            </nav>
+            <div class="nav-controls">
+                <button id="theme-toggle" class="theme-btn" title="Toggle Theme">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+            </div>
+            <button class="mobile-menu-btn" aria-label="Toggle Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
 
     <!-- ================= HERO ================= -->
 
@@ -68,52 +93,60 @@
 
         <div class="achievement-grid">
 
-            <div class="card">
+            <div class="card clickable-card" data-modal-target="t20">
                 <i class="fa-solid fa-trophy"></i>
                 <h3>ICC T20 World Cup</h3>
                 <p>Champion - 2007</p>
+                <div class="card-action">Click to Relive <i class="fa-solid fa-arrow-right"></i></div>
             </div>
 
-            <div class="card">
+            <div class="card clickable-card" data-modal-target="wc">
                 <i class="fa-solid fa-trophy"></i>
                 <h3>ICC Cricket World Cup</h3>
                 <p>Champion - 2011</p>
+                <div class="card-action">Click to Relive <i class="fa-solid fa-arrow-right"></i></div>
             </div>
 
-            <div class="card">
+            <div class="card clickable-card" data-modal-target="ct">
                 <i class="fa-solid fa-trophy"></i>
                 <h3>ICC Champions Trophy</h3>
                 <p>Champion - 2013</p>
+                <div class="card-action">Click to Relive <i class="fa-solid fa-arrow-right"></i></div>
             </div>
 
-            <div class="card">
+            <div class="card clickable-card" data-modal-target="padma-bhushan">
                 <i class="fa-solid fa-star"></i>
                 <h3>Padma Bhushan</h3>
                 <p>2018</p>
+                <div class="card-action">Click to Relive <i class="fa-solid fa-arrow-right"></i></div>
             </div>
 
-            <div class="card">
+            <div class="card clickable-card" data-modal-target="padma-shri">
                 <i class="fa-solid fa-star"></i>
                 <h3>Padma Shri</h3>
                 <p>2009</p>
+                <div class="card-action">Click to Relive <i class="fa-solid fa-arrow-right"></i></div>
             </div>
 
-            <div class="card">
+            <div class="card clickable-card" data-modal-target="khel-ratna">
                 <i class="fa-solid fa-medal"></i>
                 <h3>Khel Ratna Award</h3>
                 <p>2007</p>
+                <div class="card-action">Click to Relive <i class="fa-solid fa-arrow-right"></i></div>
             </div>
 
-            <div class="card">
+            <div class="card clickable-card" data-modal-target="ipl">
                 <i class="fa-solid fa-crown"></i>
                 <h3>5× IPL Champion</h3>
                 <p>Chennai Super Kings</p>
+                <div class="card-action">Click to Relive <i class="fa-solid fa-arrow-right"></i></div>
             </div>
 
-            <div class="card">
+            <div class="card clickable-card" data-modal-target="test-captain">
                 <i class="fa-solid fa-shield-halved"></i>
                 <h3>World No.1 Test Captain</h3>
                 <p>Led India to the top rankings</p>
+                <div class="card-action">Click to Relive <i class="fa-solid fa-arrow-right"></i></div>
             </div>
 
         </div>
@@ -259,44 +292,125 @@
 
         <div class="trophy-grid">
 
-            <div class="trophy-card">
-                <img src="./images/t20.jpg" alt="ICC T20 World Cup">
+            <div class="trophy-card clickable-card" data-modal-target="t20">
+                <div class="trophy-img-wrap">
+                    <img src="./images/t20.jpg" alt="ICC T20 World Cup">
+                </div>
                 <h3>ICC T20 World Cup</h3>
                 <p>Champion • 2007</p>
+                <div class="card-action">Click to Relive <i class="fa-solid fa-arrow-right"></i></div>
             </div>
 
-            <div class="trophy-card">
-                <img src="./images/icc-wc.jpg" alt="ICC Cricket World Cup">
+            <div class="trophy-card clickable-card" data-modal-target="wc">
+                <div class="trophy-img-wrap">
+                    <img src="./images/icc-wc.jpg" alt="ICC Cricket World Cup">
+                </div>
                 <h3>ICC Cricket World Cup</h3>
                 <p>Champion • 2011</p>
+                <div class="card-action">Click to Relive <i class="fa-solid fa-arrow-right"></i></div>
             </div>
 
-            <div class="trophy-card">
-                <img src="./images/CT-2013.jpg" alt="ICC Champions Trophy">
+            <div class="trophy-card clickable-card" data-modal-target="ct">
+                <div class="trophy-img-wrap">
+                    <img src="./images/CT-2013.jpg" alt="ICC Champions Trophy">
+                </div>
                 <h3>ICC Champions Trophy</h3>
                 <p>Champion • 2013</p>
+                <div class="card-action">Click to Relive <i class="fa-solid fa-arrow-right"></i></div>
             </div>
 
-            <div class="trophy-card">
-                <img src="./images/IPL.jpg" alt="IPL Trophy">
+            <div class="trophy-card clickable-card" data-modal-target="ipl">
+                <div class="trophy-img-wrap">
+                    <img src="./images/IPL.jpg" alt="IPL Trophy">
+                </div>
                 <h3>Indian Premier League</h3>
                 <p>5× Champion</p>
+                <div class="card-action">Click to Relive <i class="fa-solid fa-arrow-right"></i></div>
             </div>
 
-            <div class="trophy-card">
-                <img src="./images/CLT-20.jpg" alt="Champions League T20">
+            <div class="trophy-card clickable-card" data-modal-target="clt20">
+                <div class="trophy-img-wrap">
+                    <img src="./images/CLT-20.jpg" alt="Champions League T20">
+                </div>
                 <h3>Champions League T20</h3>
                 <p>2× Champion</p>
+                <div class="card-action">Click to Relive <i class="fa-solid fa-arrow-right"></i></div>
             </div>
 
-            <div class="trophy-card">
-                <img src="./images/asia-Cup.avif" alt="Asia Cup">
+            <div class="trophy-card clickable-card" data-modal-target="asia-cup">
+                <div class="trophy-img-wrap">
+                    <img src="./images/asia-Cup.avif" alt="Asia Cup">
+                </div>
                 <h3>Asia Cup</h3>
                 <p>Champion • 2010 & 2016</p>
+                <div class="card-action">Click to Relive <i class="fa-solid fa-arrow-right"></i></div>
             </div>
 
         </div>
 
+    </section>
+
+    <!-- ================= FAN CORNER ================= -->
+    <section class="fan-corner" id="fan-corner">
+        <h2>Fan Corner</h2>
+        <p class="section-subtitle">Leave your tribute for Thala Dhoni and celebrate with yellow confetti!</p>
+        
+        <div class="fan-container-layout">
+            <form id="fan-form" class="fan-form-card glass">
+                <h3>Leave a Message</h3>
+                <div class="form-group">
+                    <label for="fan-name">Your Name</label>
+                    <input type="text" id="fan-name" required placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="fan-message">Your Tribute</label>
+                    <textarea id="fan-message" rows="4" required placeholder="Write your birthday wishes or tribute..."></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="fan-jersey">Jersey Number (Default 7)</label>
+                    <input type="number" id="fan-jersey" value="7" min="1" max="99">
+                </div>
+                <button type="submit" class="btn">Submit Tribute & Celebrate 💛</button>
+            </form>
+            
+            <div class="fan-wall-container">
+                <h3>Thala Fan Board</h3>
+                <div class="fan-wall" id="fan-wall">
+                    <div class="jersey-card animated-jersey">
+                        <div class="jersey-icon">
+                            <i class="fa-solid fa-shirt"></i>
+                            <span class="jersey-number">7</span>
+                        </div>
+                        <div class="jersey-text">
+                            <h4>Rahul Sharma</h4>
+                            <p>"Happy Birthday Thala! You will always be our Captain Cool. Thank you for 2011!"</p>
+                        </div>
+                    </div>
+                    <div class="jersey-card animated-jersey">
+                        <div class="jersey-icon">
+                            <i class="fa-solid fa-shirt"></i>
+                            <span class="jersey-number">7</span>
+                        </div>
+                        <div class="jersey-text">
+                            <h4>Priya Patel</h4>
+                            <p>"Nobody stumped batsmen faster than you. The ultimate finisher! Happy Birthday Mahi!"</p>
+                        </div>
+                    </div>
+                    <div class="jersey-card animated-jersey">
+                        <div class="jersey-icon">
+                            <i class="fa-solid fa-shirt"></i>
+                            <span class="jersey-number">7</span>
+                        </div>
+                        <div class="jersey-text">
+                            <h4>Vikas Munuganti</h4>
+                            <p>"Your silence was louder than words, and your leadership was unmatched. Forever our captain!"</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <canvas id="confetti-canvas"></canvas>
     </section>
 
     <!-- ================= QUOTE ================= -->
@@ -389,6 +503,41 @@
         </small>
 
     </footer>
+
+    <!-- ================= TROPHY DETAILS MODAL ================= -->
+    <div id="trophy-modal" class="modal">
+        <div class="modal-overlay"></div>
+        <div class="modal-wrapper glass">
+            <button class="modal-close" id="modal-close-btn" aria-label="Close modal">&times;</button>
+            <div class="modal-container">
+                <div class="modal-img-wrapper">
+                    <img id="modal-image" src="" alt="Trophy Lifting Picture">
+                </div>
+                <div class="modal-content-details">
+                    <span id="modal-tag" class="modal-badge">Trophy</span>
+                    <h2 id="modal-title"></h2>
+                    <h3 id="modal-subtitle"></h3>
+                    <div id="modal-description" class="modal-text"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ================= AUDIO CONTROLLER ================= -->
+    <div class="audio-widget glass" id="audio-widget">
+        <button id="audio-play-btn" class="audio-btn" title="Play Tribute Song (Antha Aagayam)">
+            <i class="fa-solid fa-play"></i>
+        </button>
+        <div class="audio-info">
+            <span class="track-title">Pathu Thala - Antha Aagayam 🎵</span>
+            <div class="visualizer" id="visualizer">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </div>
 
     <!-- ================= SCRIPT ================= -->
 
