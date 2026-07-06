@@ -240,28 +240,28 @@ const modalDetails = {
     "padma-bhushan": {
         title: "Padma Bhushan",
         subtitle: "Third Highest Civilian Award • 2018",
-        image: "./images/D-1.jpg",
+        image: "./images/padmabushan.webp",
         tag: "National Award",
         desc: "MS Dhoni received the country's third-highest civilian award, the Padma Bhushan, in 2018. In a proud moment that went viral worldwide, he dressed in his official military uniform as an honorary Lieutenant Colonel in the Territorial Army and marched up to President Ram Nath Kovind to receive the award, representing his deep respect for the nation's armed forces."
     },
     "padma-shri": {
         title: "Padma Shri",
         subtitle: "Fourth Highest Civilian Award • 2009",
-        image: "./images/D-5.jpg",
+        image: "./images/padmabushan.webp",
         tag: "National Award",
         desc: "MS Dhoni was conferred with the Padma Shri, India's fourth-highest civilian award, in 2009 for his outstanding contribution to sports. Under his captaincy, India had just won the 2007 T20 World Cup, won the historic Commonwealth Bank Series in Australia, and reached the No.1 spot in ICC Test Rankings."
     },
     "khel-ratna": {
         title: "Major Dhyan Chand Khel Ratna",
         subtitle: "Highest Sporting Honour • 2007",
-        image: "./images/D-6.jpg",
+        image: "./images/padmabushan.webp",
         tag: "Sporting Honour",
         desc: "MS Dhoni received India's highest sporting honor, the Khel Ratna Award, in 2007 following his spectacular entry into international leadership. His captaincy led India's young squad to lift the historic inaugural ICC T20 World Cup, igniting a cricket revolution in the country."
     },
     "test-captain": {
         title: "World No.1 Test Captain",
         subtitle: "Led India to ICC Mace",
-        image: "./images/D-2.jpg",
+        image: "./images/test.webp",
         tag: "Test Cricket",
         desc: "In December 2009, under MS Dhoni's leadership, India achieved the ICC Test Championship Mace for the first time in history. Holding the World No. 1 spot for 21 consecutive months, Dhoni proved that his calm leadership could conquer the longest, most rigorous format of the game, completing his reputation as one of cricket's greatest captains of all time."
     }
